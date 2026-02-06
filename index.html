@@ -1,9 +1,70 @@
-<html lang="pt-br">
-  <head>
-    <title>Título da página</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    Aqui vai o código HTML que fará seu site aparecer.
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dutch Daily | Latest News</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #E65C00; color: white; padding: 20px; text-align: center; }
+        nav { background: #333; color: white; padding: 10px; text-align: center; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; }
+        .hero { border-bottom: 3px solid #E65C00; margin-bottom: 20px; padding-bottom: 20px; }
+        .news-grid { display: grid; grid-template-columns: 1-fr 1fr; gap: 20px; }
+        .card { border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+        .card h3 { color: #333; margin-bottom: 5px; }
+        .date { font-size: 0.8rem; color: #888; }
+        .tag { background: #E65C00; color: white; padding: 2px 8px; font-size: 0.7rem; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>THE DUTCH DAILY</h1>
+    <p>February 6, 2026 | Current Events from the Low Countries</p>
+</header>
+
+<nav>
+    Politics | Business | Sports | Environment
+</nav>
+
+<div class="container">
+    <div class="hero">
+        <span class="tag">BREAKING</span>
+        <h2>New Minority Coalition Deal Struck</h2>
+        <p>After months of negotiation following the 2025 elections, the D66, CDA, and VVD have finalized a minority government deal. The new cabinet is expected to be sworn in on February 23rd.</p>
+    </div>
+
+    <div class="news-grid">
+        <div class="card">
+            <span class="tag">EDUCATION</span>
+            <h3>Higher Education "Turning Point"</h3>
+            <p>The new government has reversed planned funding cuts for universities and halted the ban on English-taught programs to attract international talent.</p>
+            <span class="date">Feb 6, 2026</span>
+        </div>
+
+        <div class="card">
+            <span class="tag">SPORTS</span>
+            <h3>Dutch Dominance at Milano Cortina</h3>
+            <p>The 2026 Winter Olympics kick off tomorrow. Speed skaters Joy Beune and Marijke Groenewoud are favorites for the women's 3000m gold.</p>
+            <span class="date">Feb 6, 2026</span>
+        </div>
+
+        <div class="card">
+            <span class="tag">CLIMATE</span>
+            <h3>Porthos Project Hits Milestone</h3>
+            <p>Four former gas wells in the North Sea have been successfully converted for CO2 injection, marking a major step for the Rotterdam carbon capture hub.</p>
+            <span class="date">Feb 6, 2026</span>
+        </div>
+
+        <div class="card">
+            <span class="tag">TRAVEL</span>
+            <h3>Lelystad Airport Cleared for 2027</h3>
+            <p>The government has finally approved plans for Lelystad Airport to open for commercial passenger flights to relieve pressure on Schiphol.</p>
+            <span class="date">Feb 6, 2026</span>
+        </div>
+    </div>
+</div>
+
+</body>
 </html>
